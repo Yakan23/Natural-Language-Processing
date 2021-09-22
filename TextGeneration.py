@@ -52,4 +52,4 @@ def generate_sentence(chain, count=50):
     return(sentence)
 
 
-print(generate_sentence(trump_dict))
+print("Washington: "+generate_sentence(trump_dict))

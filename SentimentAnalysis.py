@@ -70,7 +70,7 @@ for lp in list_pieces:
 polarity_transcript
 
 
-# Show the plot for all comedians
+# Show the plot for all presidents
 plt.rcParams['figure.figsize'] = [15, 12]
 
 for index, comedian in enumerate(data.index):

@@ -19,13 +19,13 @@ corpus = matutils.Sparse2Corpus(sparse_counts)
 id2word = dict((v, k) for k, v in cv.vocabulary_.items())
 
 lda = models.LdaModel(corpus=corpus, id2word=id2word, num_topics=2, passes=50)
-print(lda.print_topics())
+lda.print_topics()
 
 lda = models.LdaModel(corpus=corpus, id2word=id2word, num_topics=3, passes=50)
-print(lda.print_topics())
+lda.print_topics()
 
 lda = models.LdaModel(corpus=corpus, id2word=id2word, num_topics=4, passes=50)
-print(lda.print_topics())
+lda.print_topics()
 
 
 def nouns(text):
@@ -58,14 +58,14 @@ id2wordn = dict((v, k) for k, v in cvn.vocabulary_.items())
 # Let's start with 2 topics
 ldan = models.LdaModel(corpus=corpusn, num_topics=2,id2word=id2wordn, passes=50)
 
-print(ldan.print_topics())
+ldan.print_topics()
 # Let's try topics = 3
 ldan = models.LdaModel(corpus=corpusn, num_topics=3,id2word=id2wordn, passes=50)
 
-print(ldan.print_topics())
+ldan.print_topics()
 # Let's try 4 topics
 ldan = models.LdaModel(corpus=corpusn, num_topics=4,id2word=id2wordn, passes=50)
-print(ldan.print_topics())
+ldan.print_topics()
 
 # Let's create a function to pull out nouns from a string of text
 def nouns_adj(text):
@@ -98,19 +98,19 @@ id2wordna = dict((v, k) for k, v in cvna.vocabulary_.items())
 # Let's start with 2 topics
 ldana = models.LdaModel(corpus=corpusna, num_topics=2,
                         id2word=id2wordna, passes=50)
-print(ldana.print_topics())
+ldana.print_topics()
 
 
 # Let's try 3 topics
 ldana = models.LdaModel(corpus=corpusna, num_topics=3,
                         id2word=id2wordna, passes=50)
-print(ldana.print_topics())
+ldana.print_topics()
 
 
 # Let's try 4 topics
 ldana = models.LdaModel(corpus=corpusna, num_topics=4,
                         id2word=id2wordna, passes=50)
-print(ldana.print_topics())
+ldana.print_topics()
 
 
 # Our final LDA model (for now)

@@ -1,0 +1,20 @@
+
+(0, '0.007*"public" + 0.005*"happiness" + 0.004*"confidence" + 0.004*"man" + 0.004*"principle" + 0.003*"safety" + 0.003*"honest" + 0.003*"present" + 0.003*"fellowcitizens" + 0.003*"free"'),
+(1, '0.006*"business" + 0.005*"congress" + 0.004*"america" + 0.004*"hand" + 0.004*"race" + 0.004*"law" + 0.004*"things" + 0.004*"proper" + 0.004*"national" + 0.004*"policy"'), 
+(2, '0.016*"free" + 0.010*"faith" + 0.009*"peace" + 0.008*"freedom" + 0.008*"strength" + 0.006*"peoples" + 0.005*"men" + 0.005*"common" + 0.005*"history" + 0.003*"principles"'), 
+(3, '0.015*"america" + 0.010*"president" + 0.009*"americans" + 0.008*"story" + 0.005*"democracy" + 0.005*"history" + 0.005*"children" + 0.004*"unity" + 0.004*"justice" + 0.004*"common"')]
+
+
+
+(3, 'Biden'),
+(3, 'BushJr'), 
+(1, 'BushSr'), 
+(1, 'Carter'), 
+(2, 'Eisenhower'), 
+(0, 'Jefferson'), 
+(3, 'Kennedy'), 
+(1, 'Obama'), 
+(1, 'Roosvelt'), 
+(1, 'Taft'), 
+(3, 'Trump'), 
+(0, 'Washington')]
